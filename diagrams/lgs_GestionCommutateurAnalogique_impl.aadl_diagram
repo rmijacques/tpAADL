@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="6c243e82-61f0-40d6-a840-d3449865f3e1" manual="true">
+    <element uuid="9a6920e7-9f67-4cf7-b595-bfde65441521" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>general_ev_in</seg>
+      </bo>
+      <position y="110.0"/>
+    </element>
+    <element uuid="46726a22-6915-44e0-a9a8-2fd0e6d63ea7" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>general_ev_out</seg>
+      </bo>
+      <position x="714.0" y="468.0"/>
+    </element>
+    <element uuid="cc879ea7-baf1-4403-bb21-54773cf933da" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>handle</seg>
+      </bo>
+      <position y="60.0"/>
+    </element>
+    <element uuid="fa05153a-c586-48c4-8cdc-2b22316f7412" manual="true">
+      <bo>
+        <seg>realization</seg>
+      </bo>
+    </element>
+    <element uuid="192ed28e-b533-4d34-b3f4-b0573d633905" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ClosedTOClosed</seg>
+      </bo>
+      <position x="150.0" y="700.0"/>
+      <size width="438.0" height="35.0"/>
+    </element>
+    <element uuid="96517863-7f12-4ad4-a273-c10801ac520a" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ClosedToIntermediate2</seg>
+      </bo>
+      <position x="150.0" y="410.0"/>
+      <size width="438.0" height="35.0"/>
+    </element>
+    <element uuid="52d244c4-9669-4c0c-8ed8-322e2fa52a25" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Intermediate1ToClosed</seg>
+      </bo>
+      <position x="160.0" y="310.0"/>
+      <size width="438.0" height="35.0"/>
+    </element>
+    <element uuid="1828715b-8e5d-4f55-a836-034c268b0795" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Intermediate2ToIntermediate1</seg>
+      </bo>
+      <position x="150.0" y="610.0"/>
+      <size width="438.0" height="35.0"/>
+    </element>
+    <element uuid="cdc5caa8-c505-40ca-aaa3-d70d461bf78f" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Intermediate2ToOpen</seg>
+      </bo>
+      <position x="150.0" y="507.0"/>
+      <size width="438.0" height="35.0"/>
+    </element>
+    <element uuid="2f583f82-d512-4aec-a85e-6c9b6ecf1389" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ThreadOpenToIntermediate1</seg>
+      </bo>
+      <position x="163.0" y="200.0"/>
+      <size width="431.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>GestionCommutateurAnalogique.impl</seg>
+    </bo>
+    <position y="10.0"/>
+    <size width="829.0" height="861.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::GestionCommutateurAnalogique.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

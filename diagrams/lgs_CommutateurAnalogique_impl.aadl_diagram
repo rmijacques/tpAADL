@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="e36be735-bbca-4699-b918-f9bd1572b412" manual="true">
+    <element uuid="71b5d320-c059-40d9-9829-f837ddc51d68" manual="true">
+      <element uuid="457a8def-b08f-49da-bfa8-a45969f4e231" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>CommutateurAnalogique_impl_new_connection</seg>
+      </bo>
+    </element>
+    <element uuid="65608bbd-cdf6-4eb9-bff0-c650a5eb97d7" manual="true">
+      <element uuid="3168dde0-03af-45c8-9c19-09cd22b422ed" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>CommutateurAnalogique_impl_new_connection2</seg>
+      </bo>
+    </element>
+    <element uuid="9a52073d-409c-4769-b62f-d0ba155c4beb" manual="true">
+      <element uuid="a18b5672-bc98-475e-8295-334947a7dbe1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>CommutateurAnalogique_impl_new_connection3</seg>
+      </bo>
+    </element>
+    <element uuid="368b58c1-1d66-4614-988b-c1ce8b992861" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>general_ev_in</seg>
+      </bo>
+      <position y="536.0"/>
+    </element>
+    <element uuid="3d807fca-f777-4633-b733-c82658d45329" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>general_ev_out</seg>
+      </bo>
+      <position x="1113.0" y="508.0"/>
+    </element>
+    <element uuid="652ab8e3-f29b-471c-81d0-d0326e17d9c9" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>handle</seg>
+      </bo>
+      <position y="344.0"/>
+    </element>
+    <element uuid="def36570-d639-4dd7-88df-3a98b7c5b155" manual="true">
+      <element uuid="a0a95e02-9bac-4d6b-ac55-7eab3f5dffee" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_in</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="e90965bd-6d42-4e49-9130-c61322f6bc24" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_out</seg>
+        </bo>
+        <position x="213.0" y="80.0"/>
+      </element>
+      <element uuid="8a02ef14-78eb-47ac-bfcf-474d27d82fc7" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>procCA</seg>
+      </bo>
+      <position x="428.0" y="288.0"/>
+      <size width="328.0" height="160.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>CommutateurAnalogique.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1228.0" height="728.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::CommutateurAnalogique.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="d4c59839-3cf7-448a-90ff-8f64482a5709" manual="true">
+    <element uuid="cec12be0-1247-495a-941f-506f3d6f4f12" manual="true">
+      <element uuid="3dff39ab-986f-4fcc-bd36-8323c02d369e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_in</seg>
+        </bo>
+        <position y="120.0"/>
+      </element>
+      <element uuid="d2cbaf17-dd45-40ba-8abb-c2d24a0c5cf0" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_out</seg>
+        </bo>
+        <position x="154.0" y="120.0"/>
+      </element>
+      <element uuid="499af0e3-9af0-4efd-a37c-2ab4cca557ec" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>CommutateurAnalogique</seg>
+      </bo>
+      <position x="72.0" y="430.0"/>
+      <size width="269.0" height="181.0"/>
+    </element>
+    <element uuid="827dfaed-0e4a-4c56-a9b4-e69c926f3a62" manual="true">
+      <element uuid="b839b66b-c44e-401b-a9da-6f45cee28aa7" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>CommutateurAnalogique.impl</seg>
+      </bo>
+      <position x="100.0" y="730.0"/>
+      <size width="214.0" height="35.0"/>
+    </element>
+    <element uuid="69c2d9af-20c5-4a16-8b55-6af0868d18a8" manual="true">
+      <element uuid="080a96c7-92dd-4d90-8946-0cf406b7c7d5" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_in</seg>
+        </bo>
+        <position y="126.0"/>
+      </element>
+      <element uuid="8eab4df1-6645-4e1d-af4c-8168fab6c26f" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_out</seg>
+        </bo>
+        <position x="205.0" y="126.0"/>
+      </element>
+      <element uuid="387a80c7-313f-404e-8195-8d224e4f0812" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>CommutateurAnalogiqueProcess</seg>
+      </bo>
+      <position x="498.0" y="440.0"/>
+      <size width="320.0" height="181.0"/>
+    </element>
+    <element uuid="89433117-f905-4b5d-b587-8ce7efc4f8c4" manual="true">
+      <element uuid="7816745f-460d-42ff-8a71-e4aa136c8b72" manual="true">
+        <element uuid="a94c6eed-0d87-4e0f-84ca-7ca06459d4f4" manual="true">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>CommutateurAnalogiqueProcess_impl_new_connection</seg>
+        </bo>
+        <bendpoints>
+          <point x="739.0" y="783.8333333333334"/>
+        </bendpoints>
+      </element>
+      <element uuid="dc27cf64-e963-419b-af39-2fa45bc55c71" manual="true">
+        <element uuid="692070a9-47ec-480f-a6d8-453122d2ddec" manual="true">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>CommutateurAnalogiqueProcess_impl_new_connection2</seg>
+        </bo>
+        <bendpoints>
+          <point x="629.0" y="828.0"/>
+          <point x="629.0" y="789.6666666666666"/>
+          <point x="635.0" y="789.6666666666666"/>
+        </bendpoints>
+      </element>
+      <element uuid="aab69cd8-8875-424a-a02b-af6c6bd11e6e" manual="true">
+        <element uuid="9f937061-912f-4d3b-89aa-136a23775980" manual="true">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>CommutateurAnalogiqueProcess_impl_new_connection3</seg>
+        </bo>
+        <bendpoints>
+          <point x="639.0" y="778.0"/>
+        </bendpoints>
+      </element>
+      <element uuid="533d87ca-a17d-4360-aecb-9b80538bcc31" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_in</seg>
+        </bo>
+        <position y="88.0"/>
+      </element>
+      <element uuid="a2d12ce9-50a4-4c46-ac98-a9f06ecc23b4" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_out</seg>
+        </bo>
+        <position x="410.0" y="44.0"/>
+      </element>
+      <element uuid="1d05333b-1a09-4211-9dfc-942688652159" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="38.0"/>
+      </element>
+      <element uuid="8ce9244e-6466-450a-97c4-ef7a527a3cff" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <element uuid="d7216aa9-57f2-4e21-8563-32b97aefe48d" manual="true">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>threads</seg>
+        </bo>
+        <position x="234.0" y="58.0"/>
+        <size width="100.0" height="35.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>CommutateurAnalogiqueProcess.impl</seg>
+      </bo>
+      <position x="395.0" y="678.0"/>
+      <size width="525.0" height="140.0"/>
+    </element>
+    <element uuid="c3f2a5d7-75ff-4e82-a7e1-c9f606b295e9" manual="true">
+      <element uuid="be2e758a-1c3f-4a0f-960f-0d0d3ef7e617" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>gv</seg>
+        </bo>
+        <position x="156.0" y="60.0"/>
+      </element>
+      <element uuid="059d3413-0014-4836-9c7d-7316b3de6174" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>h</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>digital_part</seg>
+      </bo>
+      <position x="68.0" y="138.0"/>
+      <size width="176.0" height="141.0"/>
+    </element>
+    <element uuid="88335d77-02a6-4a79-b766-98c8336e6446" manual="true">
+      <element uuid="f78f5a6b-56a1-417c-ae2f-e574458c638a" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>digital_part.impl</seg>
+      </bo>
+      <position x="72.0" y="300.0"/>
+      <size width="159.0" height="35.0"/>
+    </element>
+    <element uuid="3a6d4c9c-dbab-4a15-99d5-fba9eb28c4a6" manual="true">
+      <element uuid="c9d5cc45-31f5-45c3-9de7-4bb39536f40c" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>gv</seg>
+        </bo>
+        <position x="191.0" y="20.0"/>
+      </element>
+      <element uuid="4d166395-c89b-4b9a-97ec-6ac0e7d08161" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>h</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>DigitalPartProcess</seg>
+      </bo>
+      <position x="320.0" y="150.0"/>
+      <size width="211.0" height="81.0"/>
+    </element>
+    <element uuid="bbe5d66d-5aad-4da5-87e7-9ea94722ef27" manual="true">
+      <element uuid="0f352fae-c6ec-4441-915b-5ef122e9d216" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>DigitalPartProcess.impl</seg>
+      </bo>
+      <position x="324.0" y="300.0"/>
+      <size width="203.0" height="35.0"/>
+    </element>
+    <element uuid="dba64e15-793a-40d6-92b1-dc89a15ec882" manual="true">
+      <element uuid="681805b7-81f5-4493-baf6-2dc19bd812fa" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_in</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="156bb656-f3c0-4312-a8e4-2afe9b1131dc" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>general_ev_out</seg>
+        </bo>
+        <position x="234.0" y="110.0"/>
+      </element>
+      <element uuid="2635b8fe-a0a1-45b0-9fb3-4716c9b4bd3f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>GestionCommutateurAnalogique</seg>
+      </bo>
+      <position x="1000.0" y="420.0"/>
+      <size width="349.0" height="181.0"/>
+    </element>
+    <element uuid="da478e73-af2d-435f-8530-4167964cef75" manual="true">
+      <element uuid="5a120cd5-7cad-4272-a786-28c50bebe2f5" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>GestionCommutateurAnalogique.impl</seg>
+      </bo>
+      <position x="1028.0" y="640.0"/>
+      <size width="294.0" height="71.0"/>
+    </element>
+    <element uuid="d3a05d42-c38d-46f5-ba4c-c70bdbec14a2" manual="true">
+      <element uuid="9e6bb3af-2e2c-467d-bb20-f31f92f0dc01" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>gv</seg>
+        </bo>
+        <position x="159.0" y="30.0"/>
+      </element>
+      <element uuid="672fffa8-1793-440d-b5e8-5389d0189f37" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>h</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>GestionRoues</seg>
+      </bo>
+      <position x="570.0" y="138.0"/>
+      <size width="179.0" height="110.0"/>
+    </element>
+    <element uuid="926b5704-b729-420d-9d84-493ff62487dd" manual="true">
+      <element uuid="fce69d53-ab8b-4c9a-922d-6661ab08e237" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>GestionRoues.impl</seg>
+      </bo>
+      <position x="571.0" y="266.0"/>
+      <size width="174.0" height="35.0"/>
+    </element>
+    <element uuid="7fedc416-3ae6-4e54-9c08-bd857fb41e84" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadClosedToIntermediate2</seg>
+      </bo>
+      <position x="40.0" y="958.0"/>
+      <size width="246.0" height="35.0"/>
+    </element>
+    <element uuid="cde8f112-a0b2-4a8e-b54f-0f9351f9792a" manual="true">
+      <element uuid="5c260fbb-b88c-4d6f-b486-78dbaf160aad" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadClosedToIntermediate2.impl</seg>
+      </bo>
+      <position x="13.0" y="1115.0"/>
+      <size width="278.0" height="35.0"/>
+    </element>
+    <element uuid="041e44f1-10fc-4d87-8cc8-f2795e587906" manual="true">
+      <element uuid="93885d58-fc9a-4a7e-ad7d-48685b2f5fd8" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate1ToClosed</seg>
+      </bo>
+      <position x="350.0" y="950.0"/>
+      <size width="295.0" height="80.0"/>
+    </element>
+    <element uuid="f7f0a1f3-0bca-4e24-9d7a-97c2fab5fdc6" manual="true">
+      <element uuid="f404f6f2-1f12-46a4-99fa-74322aefe1b5" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate1ToClosed.impl</seg>
+      </bo>
+      <position x="350.0" y="1050.0"/>
+      <size width="278.0" height="100.0"/>
+    </element>
+    <element uuid="1b1eb33b-37b7-40dc-9c3c-6504aab92bb4" manual="true">
+      <element uuid="10b8bf18-3c6d-4625-86d0-4d548e28a26b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>handle</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate2ToIntermediate1</seg>
+      </bo>
+      <position x="1263.0" y="958.0"/>
+      <size width="397.0" height="60.0"/>
+    </element>
+    <element uuid="953e375f-d502-4c97-9d44-a8bff777126d" manual="true">
+      <element uuid="f9ccff0b-2eb0-4cd1-bf3e-7366f94bfa73" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate2ToIntermediate1.impl</seg>
+      </bo>
+      <position x="1300.0" y="1060.0"/>
+      <size width="323.0" height="35.0"/>
+    </element>
+    <element uuid="217d6037-1d8b-44b1-9778-7b7084158c6d" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate2ToOpen</seg>
+      </bo>
+      <position x="650.0" y="950.0"/>
+      <size width="237.0" height="35.0"/>
+    </element>
+    <element uuid="3692af5d-5b4c-4452-b9a6-8a24f4c00f12" manual="true">
+      <element uuid="5c0ea0cc-aecf-4719-9480-74fcb9ed750c" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadIntermediate2ToOpen.impl</seg>
+      </bo>
+      <position x="670.0" y="1070.0"/>
+      <size width="269.0" height="35.0"/>
+    </element>
+    <element uuid="8b0e530c-9ceb-4eca-87ca-6101067d7f08" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadOpenToIntermediate1</seg>
+      </bo>
+      <position x="1000.0" y="970.0"/>
+      <size width="237.0" height="35.0"/>
+    </element>
+    <element uuid="0bf9aa8c-09ba-4b40-9bb7-529d9d2a47aa" manual="true">
+      <element uuid="1972043f-dab2-4226-bafa-c8a2c8d70eed" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>ThreadOpenToIntermediate1.impl</seg>
+      </bo>
+      <position x="1000.0" y="1070.0"/>
+      <size width="269.0" height="35.0"/>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>lgs</seg>
+    </bo>
+    <position x="10.0" y="30.0"/>
+    <size width="1671.0" height="1181.0"/>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>lgs</seg>
+    </context>
+  </config>
+</diagram:Diagram>

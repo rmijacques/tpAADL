@@ -1,0 +1,126 @@
+package lgs
+public
+
+	system digital_part
+		features
+			h: in event port;
+			gv: out event port;
+	end digital_part;
+
+	system implementation digital_part.impl
+	end digital_part.impl;
+
+	thread group GestionRoues
+		features
+			h: in event port;
+			gv: out event port;
+	end GestionRoues;
+
+	thread group implementation GestionRoues.impl
+
+	end GestionRoues.impl;
+
+	process DigitalPartProcess
+		features
+			h: in event port;
+			gv: out event port;
+	end DigitalPartProcess;
+
+	process implementation DigitalPartProcess.impl
+	end DigitalPartProcess.impl;
+
+	system CommutateurAnalogique
+		features
+			general_ev_in: in data port;
+			general_ev_out: out data port;
+			handle: in event port;
+	end CommutateurAnalogique;
+
+	system implementation CommutateurAnalogique.impl
+		subcomponents
+			procCA: process CommutateurAnalogiqueProcess.impl;
+		connections
+			CommutateurAnalogique_impl_new_connection: port handle -> procCA.handle;
+			CommutateurAnalogique_impl_new_connection2: port general_ev_in -> procCA.general_ev_in;
+			CommutateurAnalogique_impl_new_connection3: port procCA.general_ev_out -> general_ev_out;
+	end CommutateurAnalogique.impl;
+
+	thread group GestionCommutateurAnalogique
+		features
+			general_ev_in: in data port;
+			general_ev_out: out data port;
+			handle: in event port;
+	end GestionCommutateurAnalogique;
+
+	thread group implementation GestionCommutateurAnalogique.impl
+	subcomponents
+		ThreadOpenToIntermediate1: thread ThreadOpenToIntermediate1.impl;
+		Intermediate1ToClosed: thread ThreadIntermediate1ToClosed.impl;
+		ClosedToIntermediate2: thread ThreadClosedToIntermediate2.impl;
+		Intermediate2ToOpen: thread ThreadIntermediate2ToOpen.impl;
+		Intermediate2ToIntermediate1: thread ThreadIntermediate2ToIntermediate1.impl;
+		ClosedTOClosed: thread Closed.impl;
+end GestionCommutateurAnalogique.impl;
+
+	process CommutateurAnalogiqueProcess
+		features
+			general_ev_in: in data port;
+			general_ev_out: out data port;
+			handle: in event port;
+	end CommutateurAnalogiqueProcess;
+
+	process implementation CommutateurAnalogiqueProcess.impl
+		subcomponents
+			threads: thread group GestionCommutateurAnalogique.impl;
+		connections
+			CommutateurAnalogiqueProcess_impl_new_connection: port threads.general_ev_out -> general_ev_out;
+			CommutateurAnalogiqueProcess_impl_new_connection2: port general_ev_in -> threads.general_ev_in;
+			CommutateurAnalogiqueProcess_impl_new_connection3: port handle -> threads.handle;
+	end CommutateurAnalogiqueProcess.impl;
+
+	thread ThreadOpenToIntermediate1
+	end ThreadOpenToIntermediate1;
+
+	thread implementation ThreadOpenToIntermediate1.impl
+	end ThreadOpenToIntermediate1.impl;
+	
+	thread ThreadIntermediate1ToClosed
+	features
+		handle: in event port;
+	end ThreadIntermediate1ToClosed;
+
+	thread implementation ThreadIntermediate1ToClosed.impl
+	end ThreadIntermediate1ToClosed.impl;
+	
+	thread ThreadClosedToIntermediate2
+	end ThreadClosedToIntermediate2;
+
+	thread implementation ThreadClosedToIntermediate2.impl
+	end ThreadClosedToIntermediate2.impl;
+	
+	thread ThreadIntermediate2ToOpen
+	end ThreadIntermediate2ToOpen;
+
+	thread implementation ThreadIntermediate2ToOpen.impl
+	end ThreadIntermediate2ToOpen.impl;
+	
+	thread ThreadIntermediate2ToIntermediate1
+		features
+		handle: in event port;
+	end ThreadIntermediate2ToIntermediate1;
+
+	thread implementation ThreadIntermediate2ToIntermediate1.impl
+	end ThreadIntermediate2ToIntermediate1.impl;
+	
+	thread Closed
+		features
+		handle: in event port;
+	end Closed;
+
+	thread implementation Closed.impl
+	end Closed.impl;
+	
+	
+	
+	
+end lgs;
