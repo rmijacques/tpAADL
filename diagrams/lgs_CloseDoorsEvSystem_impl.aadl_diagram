@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="dae0f453-aba7-4ecb-ae3d-96b1eb423edd" manual="true">
+    <element uuid="65c40e1e-fa9c-4e1d-837b-c66b4cd68866" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>CloseDoorsEvSystem_Hin</seg>
+      </bo>
+      <position y="58.0"/>
+    </element>
+    <element uuid="f0022ba9-6c67-4398-9020-947c4b5d6052" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>CloseDoorsEvSystem_Hout</seg>
+      </bo>
+      <position x="883.0" y="168.0"/>
+    </element>
+    <element uuid="eae44958-9b6e-4a0d-afc8-ebd9340a48be" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>RetractEvBusIn</seg>
+      </bo>
+      <position y="258.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>CloseDoorsEvSystem.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1069.0" height="379.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::CloseDoorsEvSystem.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

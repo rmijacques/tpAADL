@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="20c40bcd-fad4-4a5a-9b45-cc40613b6747" manual="true">
+    <element uuid="9d46f26d-e688-4498-b4a0-9c35b6a75ee4" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>Hin</seg>
+      </bo>
+      <position y="170.0"/>
+    </element>
+    <element uuid="ca0bb492-35d9-4f91-b512-7d01042efd77" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>Hout</seg>
+      </bo>
+      <position x="837.0" y="68.0"/>
+    </element>
+    <element uuid="8fe4b318-db2e-403a-9967-464595cfda25" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>open_EV</seg>
+      </bo>
+      <position y="10.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>ElectrovalveCloseDoors.impl</seg>
+    </bo>
+    <position x="260.0" y="80.0"/>
+    <size width="873.0" height="269.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::ElectrovalveCloseDoors.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
