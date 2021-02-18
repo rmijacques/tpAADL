@@ -1,5 +1,6 @@
 package lgs
 public
+	with PhysicalResources;
 
 	system digital_part
 		features
@@ -53,14 +54,14 @@ public
 	end GestionCommutateurAnalogique;
 
 	thread group implementation GestionCommutateurAnalogique.impl
-	subcomponents
-		ThreadOpenToIntermediate1: thread ThreadOpenToIntermediate1.impl;
-		Intermediate1ToClosed: thread ThreadIntermediate1ToClosed.impl;
-		ClosedToIntermediate2: thread ThreadClosedToIntermediate2.impl;
-		Intermediate2ToOpen: thread ThreadIntermediate2ToOpen.impl;
-		Intermediate2ToIntermediate1: thread ThreadIntermediate2ToIntermediate1.impl;
-		ClosedTOClosed: thread Closed.impl;
-end GestionCommutateurAnalogique.impl;
+		subcomponents
+			ThreadOpenToIntermediate1: thread ThreadOpenToIntermediate1.impl;
+			Intermediate1ToClosed: thread ThreadIntermediate1ToClosed.impl;
+			ClosedToIntermediate2: thread ThreadClosedToIntermediate2.impl;
+			Intermediate2ToOpen: thread ThreadIntermediate2ToOpen.impl;
+			Intermediate2ToIntermediate1: thread ThreadIntermediate2ToIntermediate1.impl;
+			ClosedTOClosed: thread Closed.impl;
+	end GestionCommutateurAnalogique.impl;
 
 	process CommutateurAnalogiqueProcess
 		features
@@ -83,44 +84,71 @@ end GestionCommutateurAnalogique.impl;
 
 	thread implementation ThreadOpenToIntermediate1.impl
 	end ThreadOpenToIntermediate1.impl;
-	
+
 	thread ThreadIntermediate1ToClosed
-	features
-		handle: in event port;
+		features
+			handle: in event port;
 	end ThreadIntermediate1ToClosed;
 
 	thread implementation ThreadIntermediate1ToClosed.impl
 	end ThreadIntermediate1ToClosed.impl;
-	
+
 	thread ThreadClosedToIntermediate2
 	end ThreadClosedToIntermediate2;
 
 	thread implementation ThreadClosedToIntermediate2.impl
 	end ThreadClosedToIntermediate2.impl;
-	
+
 	thread ThreadIntermediate2ToOpen
 	end ThreadIntermediate2ToOpen;
 
 	thread implementation ThreadIntermediate2ToOpen.impl
 	end ThreadIntermediate2ToOpen.impl;
-	
+
 	thread ThreadIntermediate2ToIntermediate1
 		features
-		handle: in event port;
+			handle: in event port;
 	end ThreadIntermediate2ToIntermediate1;
 
 	thread implementation ThreadIntermediate2ToIntermediate1.impl
 	end ThreadIntermediate2ToIntermediate1.impl;
-	
+
 	thread Closed
 		features
-		handle: in event port;
+			handle: in event port;
 	end Closed;
 
 	thread implementation Closed.impl
 	end Closed.impl;
-	
-	
-	
-	
+
+	system lgsSystem
+	end lgsSystem;
+
+	system implementation lgsSystem.impl
+		subcomponents
+			lgsSystem_CloseDoorEvSystemImpl: system CloseDoorsEvSystem.impl;
+			GeneralHydrolicFlowBus: bus PhysicalResources::HydraulicFlow;
+			RetractationCircuitHydrolicBus: bus PhysicalResources::HydraulicFlow;
+			RetractEvElctricalBus: bus PhysicalResources::ElectricalPower;
+		connections
+			lgsSystem_impl_new_connection: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hin -> GeneralHydrolicFlowBus;
+			lgsSystem_impl_new_connection2: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hout -> RetractationCircuitHydrolicBus;
+			lgsSystem_impl_new_connection3: bus access lgsSystem_CloseDoorEvSystemImpl.RetractEvBusIn -> RetractEvElctricalBus;
+	end lgsSystem.impl;
+
+	system CloseDoorsEvSystem
+		features
+			CloseDoorsEvSystem_Hout: requires bus access PhysicalResources::HydraulicFlow;
+			CloseDoorsEvSystem_Hin: requires bus access PhysicalResources::HydraulicFlow;
+			RetractEvBusIn: requires bus access PhysicalResources::ElectricalPower;
+	end CloseDoorsEvSystem;
+
+	system implementation CloseDoorsEvSystem.impl
+end CloseDoorsEvSystem.impl;
+
+	process CloseDoorEvProcess
+	end CloseDoorEvProcess;
+
+	process implementation CloseDoorEvProcess.impl
+	end CloseDoorEvProcess.impl;
 end lgs;
