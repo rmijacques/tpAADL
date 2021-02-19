@@ -251,7 +251,7 @@ end lgsSystem.impl;
 
 	system ElectrovalvesSystem
 	features
-		GenralHydrolicFloww: requires bus access;
+		GenralHydrolicFloww: requires bus access PhysicalResources::HydraulicFlow;
 		CloeEV: in data port PhysicalResources::ElectricalPower;
 		OpenEv: in data port PhysicalResources::ElectricalPower;
 		ExtendEv: in data port PhysicalResources::ElectricalPower;

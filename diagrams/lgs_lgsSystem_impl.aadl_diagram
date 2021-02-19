@@ -137,7 +137,7 @@
         <seg>subcomponent</seg>
         <seg>ElectrovalvesSystem</seg>
       </bo>
-      <position x="1750.0" y="494.0"/>
+      <position x="1300.0" y="450.0"/>
       <size width="491.0" height="297.0"/>
     </element>
     <element uuid="b410ede4-8e6a-4c86-9d88-9524331adb93" manual="true">
@@ -145,14 +145,14 @@
         <seg>subcomponent</seg>
         <seg>GeneralHydrolicFlowBus</seg>
       </bo>
-      <position x="890.0" y="880.0"/>
+      <position x="930.0" y="840.0"/>
       <size width="288.0" height="35.0"/>
     </element>
     <bo>
       <seg>classifier</seg>
       <seg>lgsSystem.impl</seg>
     </bo>
-    <position x="-370.0" y="160.0"/>
+    <position x="-530.0" y="150.0"/>
     <size width="3530.0" height="2301.0"/>
   </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
