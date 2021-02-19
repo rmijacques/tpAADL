@@ -15,16 +15,9 @@
       </bo>
       <position x="883.0" y="168.0"/>
     </element>
-    <element uuid="eae44958-9b6e-4a0d-afc8-ebd9340a48be" manual="true" dockArea="left">
-      <bo>
-        <seg>feature</seg>
-        <seg>RetractEvBusIn</seg>
-      </bo>
-      <position y="258.0"/>
-    </element>
     <bo>
       <seg>classifier</seg>
-      <seg>CloseDoorsEvSystem.impl</seg>
+      <seg>Close_EV_System.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
     <size width="1069.0" height="379.0"/>
@@ -33,7 +26,7 @@
     <enabledAadlProperties/>
     <context>
       <seg>classifier</seg>
-      <seg>lgs::CloseDoorsEvSystem.impl</seg>
+      <seg>lgs::Close_EV_System.impl</seg>
     </context>
   </config>
 </diagram:Diagram>

@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="d4c59839-3cf7-448a-90ff-8f64482a5709" manual="true">
+    <element uuid="216fbc18-aef9-4433-a850-6a6db5a79018" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>Close_EV_System</seg>
+      </bo>
+      <position x="1270.0" y="660.0"/>
+      <size width="204.0" height="35.0"/>
+    </element>
+    <element uuid="b5a478d0-99e9-4303-8fab-ec77807089be" manual="true">
+      <element uuid="ac90cd49-d790-4b02-8532-05d427f0d2c2" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>Close_EV_System.impl</seg>
+      </bo>
+      <position x="1270.0" y="710.0"/>
+      <size width="204.0" height="35.0"/>
+    </element>
     <element uuid="d9c44596-e5f9-45af-9686-05c8a8179c0d" manual="true">
       <bo>
         <seg>classifier</seg>
@@ -15,8 +36,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="184.0" y="95.5"/>
-          <point x="196.0" y="95.5"/>
+          <point x="184.0" y="96.0"/>
+          <point x="196.0" y="96.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -32,7 +53,7 @@
         <seg>CloseDoorEvProcess</seg>
       </bo>
       <position x="450.0" y="790.0"/>
-      <size width="900.0" height="191.0"/>
+      <size width="150.0" height="31.0"/>
     </element>
     <element uuid="5969cbbf-42a7-47b1-8820-c52bafb5ef88" manual="true">
       <element uuid="8ffd404e-1d54-411c-a492-e89eb0eab80c" manual="true">
@@ -44,29 +65,8 @@
         <seg>classifier</seg>
         <seg>CloseDoorEvProcess.impl</seg>
       </bo>
-      <position x="563.0" y="720.0"/>
+      <position x="426.0" y="710.0"/>
       <size width="216.0" height="35.0"/>
-    </element>
-    <element uuid="a2d798e9-201d-4d5e-94df-f49a9d5a3df0" manual="true">
-      <bo>
-        <seg>classifier</seg>
-        <seg>CloseDoorsEvSystem</seg>
-      </bo>
-      <position x="990.0" y="457.0"/>
-      <size width="155.0" height="100.0"/>
-    </element>
-    <element uuid="b464fba3-a5b7-4bc3-8a07-a9468fcdf09b" manual="true">
-      <element uuid="bf9a8221-e097-4d15-bebf-10270476b36a" manual="true">
-        <bo>
-          <seg>realization</seg>
-        </bo>
-      </element>
-      <bo>
-        <seg>classifier</seg>
-        <seg>CloseDoorsEvSystem.impl</seg>
-      </bo>
-      <position x="810.0" y="643.0"/>
-      <size width="591.0" height="58.0"/>
     </element>
     <element uuid="7fb0afe7-db37-4191-9d40-0ab2c60edfef" manual="true">
       <bo>
@@ -103,8 +103,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="352.0" y="645.5"/>
-          <point x="364.0" y="645.5"/>
+          <point x="352.0" y="646.0"/>
+          <point x="364.0" y="646.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -128,8 +128,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="483.0" y="95.5"/>
-          <point x="495.0" y="95.5"/>
+          <point x="483.0" y="96.0"/>
+          <point x="495.0" y="96.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -174,6 +174,69 @@
       <position x="38.0" y="148.0"/>
       <size width="243.0" height="112.0"/>
     </element>
+    <element uuid="579a1403-5452-45fc-854c-62cb5804eb1f" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>Extend_EV_System</seg>
+      </bo>
+      <position x="1530.0" y="650.0"/>
+      <size width="212.0" height="35.0"/>
+    </element>
+    <element uuid="a4eb8825-9d5c-4895-944f-4cc87de29337" manual="true">
+      <element uuid="11b04e54-a3fd-49c4-855f-06646dd35c58" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>Extend_EV_System.impl</seg>
+      </bo>
+      <position x="1530.0" y="710.0"/>
+      <size width="213.0" height="35.0"/>
+    </element>
+    <element uuid="d02db2da-7375-4610-a928-66a620a537d7" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>FrontDoorCylinder</seg>
+      </bo>
+      <position x="1390.0" y="850.0"/>
+      <size width="176.0" height="35.0"/>
+    </element>
+    <element uuid="c092b4f0-705a-41be-8d20-9472941060ef" manual="true">
+      <element uuid="488b8369-4475-4056-ada2-675c4f32becb" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>FrontDoorCylinder.impl</seg>
+      </bo>
+      <position x="1400.0" y="900.0"/>
+      <size width="207.0" height="35.0"/>
+    </element>
+    <element uuid="908aab97-ba2a-4019-901b-4c6ac3c73402" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>FrontGearCylinder</seg>
+      </bo>
+      <position x="1650.0" y="838.0"/>
+      <size width="177.0" height="35.0"/>
+    </element>
+    <element uuid="453c3fdb-0126-4222-83fd-0aba2e44cb11" manual="true">
+      <element uuid="bbf7e5ca-3012-4f3b-905a-27f8d90db9f8" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>FrontGearCylinder.impl</seg>
+      </bo>
+      <position x="1620.0" y="900.0"/>
+      <size width="208.0" height="35.0"/>
+    </element>
     <element uuid="dce2e8bd-75c0-4f32-b1b5-1934daad9824" manual="true">
       <bo>
         <seg>classifier</seg>
@@ -188,8 +251,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="351.0" y="590.5"/>
-          <point x="363.0" y="590.5"/>
+          <point x="351.0" y="591.0"/>
+          <point x="363.0" y="591.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -213,8 +276,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="231.0" y="150.5"/>
-          <point x="243.0" y="150.5"/>
+          <point x="231.0" y="151.0"/>
+          <point x="243.0" y="151.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -224,16 +287,58 @@
       <position x="38.0" y="93.0"/>
       <size width="179.0" height="35.0"/>
     </element>
+    <element uuid="ce700ff9-4570-4262-9506-65cf2a385492" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>LeftDoorCylinder</seg>
+      </bo>
+      <position x="750.0" y="826.0"/>
+      <size width="167.0" height="35.0"/>
+    </element>
+    <element uuid="6f65504a-94c1-48f6-8c2d-5d5f4fa1390f" manual="true">
+      <element uuid="4b581bdb-d94f-42b1-a59a-111d5066659f" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>LeftDoorCylinder.impl</seg>
+      </bo>
+      <position x="728.0" y="894.0"/>
+      <size width="198.0" height="35.0"/>
+    </element>
+    <element uuid="e6be645d-bc51-4a06-8d36-584639982860" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>LeftGearCylinder</seg>
+      </bo>
+      <position x="553.0" y="830.0"/>
+      <size width="168.0" height="35.0"/>
+    </element>
+    <element uuid="75bab33f-e268-44bc-8cbc-c56eacf48f66" manual="true">
+      <element uuid="0f66e50f-78ec-469a-8157-a53d0c08113d" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>LeftGearCylinder.impl</seg>
+      </bo>
+      <position x="510.0" y="900.0"/>
+      <size width="199.0" height="35.0"/>
+    </element>
     <element uuid="04cd9763-3aa0-470c-8c8c-181be5cf3035" manual="true">
       <bo>
         <seg>classifier</seg>
         <seg>lgsSystem</seg>
       </bo>
-      <position x="1200.0" y="400.0"/>
+      <position x="1300.0" y="200.0"/>
       <size width="144.0" height="35.0"/>
     </element>
     <element uuid="78a680eb-3792-4754-8bfa-8dcd797c7374" manual="true">
-      <element uuid="f49c64a4-335e-4ace-b58f-5eb0a339d75f" manual="true">
+      <element uuid="77d0eab3-0112-426b-a9bb-3b8d4b89703c" manual="true">
         <bo>
           <seg>realization</seg>
         </bo>
@@ -242,8 +347,92 @@
         <seg>classifier</seg>
         <seg>lgsSystem.impl</seg>
       </bo>
-      <position x="1280.0" y="500.0"/>
-      <size width="150.0" height="35.0"/>
+      <position x="1167.0" y="340.0"/>
+      <size width="592.0" height="56.0"/>
+    </element>
+    <element uuid="b898bda2-4aca-467f-99e3-76eca3430320" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>Open_EV_System</seg>
+      </bo>
+      <position x="730.0" y="643.0"/>
+      <size width="193.0" height="35.0"/>
+    </element>
+    <element uuid="cd6f1f58-3907-4eb6-919f-05d1e9481897" manual="true">
+      <element uuid="7b21d506-1fee-4df0-942f-c0c3e15f1414" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>Open_EV_System.impl</seg>
+      </bo>
+      <position x="730.0" y="696.0"/>
+      <size width="194.0" height="40.0"/>
+    </element>
+    <element uuid="07031a5e-1dee-4a3a-a317-8e7ce8449014" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>Retract_EV_System</seg>
+      </bo>
+      <position x="948.0" y="643.0"/>
+      <size width="220.0" height="35.0"/>
+    </element>
+    <element uuid="821b96f9-956a-4231-8641-c4dd9105a8b1" manual="true">
+      <element uuid="03b1210d-36b6-456a-88e2-c0a2e9ae749f" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>Retract_EV_System.impl</seg>
+      </bo>
+      <position x="947.0" y="694.0"/>
+      <size width="221.0" height="43.0"/>
+    </element>
+    <element uuid="d65b3e2a-72a6-4f7c-8a62-fb369f1ea400" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>RightDoorCylinder</seg>
+      </bo>
+      <position x="940.0" y="838.0"/>
+      <size width="176.0" height="35.0"/>
+    </element>
+    <element uuid="46c1010d-c24b-4d3e-96d3-d9af4dd2581e" manual="true">
+      <element uuid="a6705d02-d9f8-4fbe-b282-a651fe259b7c" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>RightDoorCylinder.impl</seg>
+      </bo>
+      <position x="930.0" y="900.0"/>
+      <size width="207.0" height="35.0"/>
+    </element>
+    <element uuid="804a466a-a9f3-4183-a755-63fd4846905e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>RightGearCylinder</seg>
+      </bo>
+      <position x="1150.0" y="850.0"/>
+      <size width="177.0" height="35.0"/>
+    </element>
+    <element uuid="4f04c6dd-d52b-46ab-85c5-3e14de250fe4" manual="true">
+      <element uuid="1aa04f0f-a729-4dcb-91d2-d40520203775" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>RightGearCylinder.impl</seg>
+      </bo>
+      <position x="1167.0" y="910.0"/>
+      <size width="208.0" height="35.0"/>
     </element>
     <element uuid="45ab5007-3d5f-4ecd-a871-733efadae153" manual="true">
       <bo>
@@ -259,8 +448,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="330.0" y="480.5"/>
-          <point x="342.0" y="480.5"/>
+          <point x="330.0" y="481.0"/>
+          <point x="342.0" y="481.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -284,8 +473,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="335.0" y="535.5"/>
-          <point x="347.0" y="535.5"/>
+          <point x="335.0" y="536.0"/>
+          <point x="347.0" y="536.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -309,8 +498,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="380.0" y="700.5"/>
-          <point x="392.0" y="700.5"/>
+          <point x="380.0" y="701.0"/>
+          <point x="392.0" y="701.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -334,8 +523,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="321.0" y="425.5"/>
-          <point x="333.0" y="425.5"/>
+          <point x="321.0" y="426.0"/>
+          <point x="333.0" y="426.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -359,8 +548,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="321.0" y="370.5"/>
-          <point x="333.0" y="370.5"/>
+          <point x="321.0" y="371.0"/>
+          <point x="333.0" y="371.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -375,7 +564,7 @@
       <seg>lgs</seg>
     </bo>
     <position x="10.0" y="40.0"/>
-    <size width="1671.0" height="1181.0"/>
+    <size width="1880.0" height="1181.0"/>
   </element>
   <config type="package" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
