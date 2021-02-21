@@ -15,8 +15,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="184.0" y="95.5"/>
-          <point x="196.0" y="95.5"/>
+          <point x="334.0" y="86.0"/>
+          <point x="346.0" y="86.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -53,7 +53,7 @@
         <seg>CloseDoorsEvSystem</seg>
       </bo>
       <position x="990.0" y="457.0"/>
-      <size width="155.0" height="100.0"/>
+      <size width="159.0" height="100.0"/>
     </element>
     <element uuid="b464fba3-a5b7-4bc3-8a07-a9468fcdf09b" manual="true">
       <element uuid="bf9a8221-e097-4d15-bebf-10270476b36a" manual="true">
@@ -74,7 +74,7 @@
         <seg>CommutateurAnalogique</seg>
       </bo>
       <position x="730.0" y="270.0"/>
-      <size width="219.0" height="35.0"/>
+      <size width="250.0" height="51.0"/>
     </element>
     <element uuid="7b2a82b1-c45e-4be3-a808-e4b2bcb7507d" manual="true">
       <element uuid="a6b22134-9e2c-42b3-bf66-8964bbf0a7ec" manual="true">
@@ -103,8 +103,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="352.0" y="645.5"/>
-          <point x="364.0" y="645.5"/>
+          <point x="502.0" y="636.0"/>
+          <point x="514.0" y="636.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -128,8 +128,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="483.0" y="95.5"/>
-          <point x="495.0" y="95.5"/>
+          <point x="633.0" y="86.0"/>
+          <point x="645.0" y="86.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -174,6 +174,69 @@
       <position x="38.0" y="148.0"/>
       <size width="243.0" height="112.0"/>
     </element>
+    <element uuid="0734d769-30cd-4b04-a3ab-7235f18d584e" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>discrete_sensor</seg>
+      </bo>
+      <position x="1370.0" y="148.0"/>
+      <size width="197.0" height="33.0"/>
+    </element>
+    <element uuid="78b93e54-352b-4490-afe3-980eec6f5caa" manual="true">
+      <element uuid="4619b1f4-8220-4851-a469-db757a0a20a6" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>discrete_sensor.impl</seg>
+      </bo>
+      <position x="1343.0" y="84.0"/>
+      <size width="241.0" height="53.0"/>
+    </element>
+    <element uuid="4b8ff01b-1780-4317-9505-7cbbbac9ea84" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>discrete_sensorProcess</seg>
+      </bo>
+      <position x="1640.0" y="93.0"/>
+      <size width="232.0" height="34.0"/>
+    </element>
+    <element uuid="bfc94c01-7d34-4d49-957e-636947fb6bd1" manual="true">
+      <element uuid="374b6617-65cf-4318-a254-d879719caa4e" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>discrete_sensorProcess.impl</seg>
+      </bo>
+      <position x="1640.0" y="147.0"/>
+      <size width="240.0" height="35.0"/>
+    </element>
+    <element uuid="f3f69e57-1969-4b27-9873-4fe24211b523" manual="true">
+      <bo>
+        <seg>classifier</seg>
+        <seg>DiscreteSensor_calculator</seg>
+      </bo>
+      <position x="1480.0" y="230.0"/>
+      <size width="262.0" height="61.0"/>
+    </element>
+    <element uuid="15305bea-785b-4562-9837-85a628127f65" manual="true">
+      <element uuid="913e38ca-b88a-4081-846b-4e40c84876aa" manual="true">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>DiscreteSensor_calculator.impl</seg>
+      </bo>
+      <position x="1486.0" y="310.0"/>
+      <size width="249.0" height="35.0"/>
+    </element>
     <element uuid="dce2e8bd-75c0-4f32-b1b5-1934daad9824" manual="true">
       <bo>
         <seg>classifier</seg>
@@ -188,8 +251,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="351.0" y="590.5"/>
-          <point x="363.0" y="590.5"/>
+          <point x="501.0" y="581.0"/>
+          <point x="513.0" y="581.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -213,8 +276,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="231.0" y="150.5"/>
-          <point x="243.0" y="150.5"/>
+          <point x="381.0" y="141.0"/>
+          <point x="393.0" y="141.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -243,7 +306,7 @@
         <seg>lgsSystem.impl</seg>
       </bo>
       <position x="1280.0" y="500.0"/>
-      <size width="150.0" height="35.0"/>
+      <size width="200.0" height="56.0"/>
     </element>
     <element uuid="45ab5007-3d5f-4ecd-a871-733efadae153" manual="true">
       <bo>
@@ -259,8 +322,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="330.0" y="480.5"/>
-          <point x="342.0" y="480.5"/>
+          <point x="480.0" y="471.0"/>
+          <point x="492.0" y="471.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -284,8 +347,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="335.0" y="535.5"/>
-          <point x="347.0" y="535.5"/>
+          <point x="485.0" y="526.0"/>
+          <point x="497.0" y="526.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -309,8 +372,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="380.0" y="700.5"/>
-          <point x="392.0" y="700.5"/>
+          <point x="530.0" y="691.0"/>
+          <point x="542.0" y="691.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -334,8 +397,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="321.0" y="425.5"/>
-          <point x="333.0" y="425.5"/>
+          <point x="471.0" y="416.0"/>
+          <point x="483.0" y="416.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -359,8 +422,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="321.0" y="370.5"/>
-          <point x="333.0" y="370.5"/>
+          <point x="471.0" y="361.0"/>
+          <point x="483.0" y="361.0"/>
         </bendpoints>
       </element>
       <bo>
@@ -374,8 +437,8 @@
       <seg>package</seg>
       <seg>lgs</seg>
     </bo>
-    <position x="10.0" y="40.0"/>
-    <size width="1671.0" height="1181.0"/>
+    <position x="160.0" y="30.0"/>
+    <size width="2024.0" height="1181.0"/>
   </element>
   <config type="package" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>

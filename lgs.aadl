@@ -1,12 +1,14 @@
 package lgs
 public
 	with PhysicalResources;
+	with Base_Types;
 
 	system digital_part
-		features
-			h: in event port;
-			gv: out event port;
-	end digital_part;
+	features
+		pressureCheck: in data port Base_Types::Boolean;
+		h: in event port;
+		gv: out event port;
+end digital_part;
 
 	system implementation digital_part.impl
 	end digital_part.impl;
@@ -125,16 +127,22 @@ public
 	end lgsSystem;
 
 	system implementation lgsSystem.impl
-		subcomponents
-			lgsSystem_CloseDoorEvSystemImpl: system CloseDoorsEvSystem.impl;
-			GeneralHydrolicFlowBus: bus PhysicalResources::HydraulicFlow;
-			RetractationCircuitHydrolicBus: bus PhysicalResources::HydraulicFlow;
-			RetractEvElctricalBus: bus PhysicalResources::ElectricalPower;
-		connections
-			lgsSystem_impl_new_connection: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hin -> GeneralHydrolicFlowBus;
-			lgsSystem_impl_new_connection2: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hout -> RetractationCircuitHydrolicBus;
-			lgsSystem_impl_new_connection3: bus access lgsSystem_CloseDoorEvSystemImpl.RetractEvBusIn -> RetractEvElctricalBus;
-	end lgsSystem.impl;
+	subcomponents
+		lgsSystem_CloseDoorEvSystemImpl: system CloseDoorsEvSystem.impl;
+		GeneralHydrolicFlowBus: bus PhysicalResources::HydraulicFlow;
+		RetractationCircuitHydrolicBus: bus PhysicalResources::HydraulicFlow;
+		RetractEvElctricalBus: bus PhysicalResources::ElectricalPower;
+
+		lgsSystem_discrete_sensorIpml: system discrete_sensor.impl;
+		lgsSystem_digitalPartImpl: system digital_part.impl;
+	connections
+		lgsSystem_impl_new_connection: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hin -> GeneralHydrolicFlowBus;
+		lgsSystem_impl_new_connection2: bus access lgsSystem_CloseDoorEvSystemImpl.CloseDoorsEvSystem_Hout -> RetractationCircuitHydrolicBus;
+		lgsSystem_impl_new_connection3: bus access lgsSystem_CloseDoorEvSystemImpl.RetractEvBusIn -> RetractEvElctricalBus;
+		lgsSystem_impl_new_connection4: bus access lgsSystem_Discrete_sensorImpl.pressure_in -> GeneralHydrolicFlowBus;
+		lgsSystem_impl_new_connection5: bus access lgsSystem_discrete_sensorIpml.pressure_in -> GeneralHydrolicFlowBus;
+		lgsSystem_impl_new_connection6: port lgsSystem_discrete_sensorIpml.circuit_pressurized -> lgsSystem_digitalPartImpl.pressureCheck;
+end lgsSystem.impl;
 
 	system CloseDoorsEvSystem
 		features
@@ -144,11 +152,50 @@ public
 	end CloseDoorsEvSystem;
 
 	system implementation CloseDoorsEvSystem.impl
-end CloseDoorsEvSystem.impl;
+	end CloseDoorsEvSystem.impl;
 
 	process CloseDoorEvProcess
 	end CloseDoorEvProcess;
 
 	process implementation CloseDoorEvProcess.impl
 	end CloseDoorEvProcess.impl;
+
+	system discrete_sensor
+		features
+
+			pressure_in: requires bus access PhysicalResources::HydraulicFlow;
+			circuit_pressurized: out data port Base_Types::Boolean;
+	end discrete_sensor;
+
+	system implementation discrete_sensor.impl
+	end discrete_sensor.impl;
+
+	process discrete_sensorProcess
+		features
+			Mecanic_pressure_sensor: requires data access Base_Types::Float;
+			circuit_pressurized: out data port Base_Types::Boolean;
+	end discrete_sensorProcess;
+
+	process implementation discrete_sensorProcess.impl
+		subcomponents
+			discrete_sensorProcess_thread_calculator: thread DiscreteSensor_calculator.impl;
+		connections
+			discrete_sensorProcess_impl_new_connection: port discrete_sensorProcess_thread_calculator.result_toBoolean -> circuit_pressurized;
+			discrete_sensorProcess_impl_new_connection2: data access Mecanic_pressure_sensor -> discrete_sensorProcess_thread_calculator.float_pressureValue;
+	end discrete_sensorProcess.impl;
+
+	system implementation discrete_sensor.lgs
+	end discrete_sensor.lgs;
+
+	system implementation discrete_sensor.Im
+	end discrete_sensor.Im;
+
+	thread DiscreteSensor_calculator
+		features
+			result_toBoolean: out data port Base_Types::Boolean;
+			float_pressureValue: requires data access;
+	end DiscreteSensor_calculator;
+
+	thread implementation DiscreteSensor_calculator.impl
+	end DiscreteSensor_calculator.impl;
 end lgs;

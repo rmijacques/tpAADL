@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="684b4173-eee9-4045-a576-ce6712acd496" manual="true">
+    <element uuid="025dd403-c63a-41b9-ad80-c18b95df549e" manual="true">
+      <element uuid="1d2aa294-1eab-4923-8f3b-f938ae9b7a99" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>discrete_sensorProcess_impl_new_connection</seg>
+      </bo>
+    </element>
+    <element uuid="20432f95-afce-4a9b-a457-125efbe0c32f" manual="true">
+      <element uuid="1b4c92bf-0221-41c7-ab02-706672baf3d1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>discrete_sensorProcess_impl_new_connection2</seg>
+      </bo>
+    </element>
+    <element uuid="58d2d2bd-230f-4253-94f0-9f9ceaf47efd" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>circuit_pressurized</seg>
+      </bo>
+      <position x="724.0" y="110.0"/>
+    </element>
+    <element uuid="0955ed7b-8730-4d2d-86a4-75777a9b4654" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>Mecanic_pressure_sensor</seg>
+      </bo>
+      <position y="200.0"/>
+    </element>
+    <element uuid="36d2cdb9-27b9-40ce-bff0-1e934151ea28" manual="true">
+      <element uuid="37f09257-a8e6-4af9-a711-0b3b4eb8ca83" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>float_pressureValue</seg>
+        </bo>
+        <position y="40.0"/>
+      </element>
+      <element uuid="f5f0ede5-7c86-46a4-bb8e-8e348295a650" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>result_toBoolean</seg>
+        </bo>
+        <position x="287.0" y="40.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>discrete_sensorProcess_thread_calculator</seg>
+      </bo>
+      <position x="250.0" y="149.0"/>
+      <size width="411.0" height="91.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>discrete_sensorProcess.impl</seg>
+    </bo>
+    <position x="40.0" y="20.0"/>
+    <size width="861.0" height="329.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::discrete_sensorProcess.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
