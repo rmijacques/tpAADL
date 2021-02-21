@@ -206,8 +206,8 @@ end lgsSystem.impl;
 
 	device RightDoorCylinder
 		features
-			RightDoorCylinderRetractationCircuit: requires bus access;
-			RightDoorCylinderExtensionCircuit: requires bus access;
+			RightDoorCylinderRetractationCircuit: requires bus access PhysicalResources::HydraulicFlow;
+			RightDoorCylinderExtensionCircuit: requires bus access PhysicalResources::HydraulicFlow;
 	end RightDoorCylinder;
 
 	device implementation RightDoorCylinder.impl
@@ -215,8 +215,8 @@ end lgsSystem.impl;
 
 	device LeftDoorCylinder
 		features
-			LeftDoorCylinderRetractationCircuit: requires bus access;
-			LeftDoorCylinderExtensionCircuit: requires bus access;
+			LeftDoorCylinderRetractationCircuit: requires bus access PhysicalResources::HydraulicFlow;
+			LeftDoorCylinderExtensionCircuit: requires bus access PhysicalResources::HydraulicFlow;
 	end LeftDoorCylinder;
 
 	device implementation LeftDoorCylinder.impl
@@ -224,8 +224,8 @@ end lgsSystem.impl;
 
 	device FrontGearCylinder
 		features
-			FrontGearCylinderRetractationCircuit: requires bus access;
-			FrontGearCylinderExtensionCircuit: requires bus access;
+			FrontGearCylinderRetractationCircuit: requires bus access PhysicalResources::HydraulicFlow;
+			FrontGearCylinderExtensionCircuit: requires bus access PhysicalResources::HydraulicFlow;
 	end FrontGearCylinder;
 
 	device implementation FrontGearCylinder.impl
@@ -233,8 +233,8 @@ end lgsSystem.impl;
 
 	device RightGearCylinder
 		features
-			RightGearCylinderRetractationCircuit: requires bus access;
-			RightGearCylinderExtensionCircuit: requires bus access;
+			RightGearCylinderRetractationCircuit: requires bus access PhysicalResources::HydraulicFlow;
+			RightGearCylinderExtensionCircuit: requires bus access PhysicalResources::HydraulicFlow;
 	end RightGearCylinder;
 
 	device implementation RightGearCylinder.impl
@@ -242,8 +242,8 @@ end lgsSystem.impl;
 
 	device LeftGearCylinder
 		features
-			LeftGearCylinderRetractationCircuit: requires bus access;
-			LeftGearCylinderExtensionCircuit: requires bus access;
+			LeftGearCylinderRetractationCircuit: requires bus access PhysicalResources::HydraulicFlow;
+			LeftGearCylinderExtensionCircuit: requires bus access PhysicalResources::HydraulicFlow;
 	end LeftGearCylinder;
 
 	device implementation LeftGearCylinder.impl
