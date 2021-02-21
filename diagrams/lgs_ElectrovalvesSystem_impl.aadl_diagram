@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="477d6517-cf7f-4018-b2f5-d4d1128c78e1" manual="true">
+    <element uuid="84a7f99c-423a-461b-8b9a-f02f2ace2d82" manual="true">
+      <element uuid="ea3fd620-0650-4204-8ef8-f69169db9b4e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection</seg>
+      </bo>
+    </element>
+    <element uuid="fb8fbedc-cee1-481c-b6b2-ecd4ab0be2ac" manual="true">
+      <element uuid="5ce88ea1-132a-4aa9-be83-a54db039edb9" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection10</seg>
+      </bo>
+    </element>
+    <element uuid="beb3e37c-4e43-4edd-b721-52922d7dfd30" manual="true">
+      <element uuid="c0ccbd61-212a-4712-99b4-7e335ea58652" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection11</seg>
+      </bo>
+    </element>
+    <element uuid="86f60127-5156-4b01-9dde-610f78115aee" manual="true">
+      <element uuid="361c25e7-cc51-4baf-b9ea-79590fa3cbe3" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection12</seg>
+      </bo>
+    </element>
+    <element uuid="2c13e451-00e2-4038-91c6-07b3794b0322" manual="true">
+      <element uuid="f4e3706b-06ed-487e-9a4a-9aaf2465d13a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection13</seg>
+      </bo>
+    </element>
+    <element uuid="a13afcf9-0a01-4d9a-8d76-5e71185bf689" manual="true">
+      <element uuid="7d61cf86-336b-4164-8bdd-c926550d3881" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection14</seg>
+      </bo>
+    </element>
+    <element uuid="50768c1f-a663-44e2-8270-8ca36c667a24" manual="true">
+      <element uuid="0b64ef07-3b2b-4dcb-a3ce-402bbe633487" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection15</seg>
+      </bo>
+    </element>
+    <element uuid="c720937b-3d69-48e1-af16-fb58355810b8" manual="true">
+      <element uuid="a3a31c58-d13e-420f-ac17-ba29213d44af" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection16</seg>
+      </bo>
+    </element>
+    <element uuid="0cbd5115-7eac-4ce1-a18c-a5d8c783f06f" manual="true">
+      <element uuid="b0b2e633-c647-45e7-82e7-66f92faaa07f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection17</seg>
+      </bo>
+    </element>
+    <element uuid="9793431a-315c-44b3-a359-e334fecc2b41" manual="true">
+      <element uuid="30daed18-5613-40cc-9a8a-4813019f52c1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection18</seg>
+      </bo>
+    </element>
+    <element uuid="e1337ba3-2105-43d9-bbc0-734812279da5" manual="true">
+      <element uuid="7751b05e-fb1b-4c5e-a63b-65dabc185ee7" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection19</seg>
+      </bo>
+    </element>
+    <element uuid="e6b9f1a0-4ac4-4df3-b793-c6eafe64edf4" manual="true">
+      <element uuid="9d9c29aa-8742-498c-87de-51309dba9812" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection2</seg>
+      </bo>
+    </element>
+    <element uuid="7a6740a9-d8e3-4a62-a1ba-8ea25ba82c6b" manual="true">
+      <element uuid="92c2af46-66b5-49b2-bb0d-a1f63da6bca1" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection20</seg>
+      </bo>
+    </element>
+    <element uuid="64478e72-4596-440b-822b-8fcaa4fd4c68" manual="true">
+      <element uuid="2f5f48f3-030e-41df-b9f0-b28d32d7ffd6" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection21</seg>
+      </bo>
+    </element>
+    <element uuid="372b3d38-a2b1-469d-a6a2-358191e4da1d" manual="true">
+      <element uuid="0e270d41-ce6d-49b6-be59-38932ae6940b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection22</seg>
+      </bo>
+    </element>
+    <element uuid="03664ae6-e28c-43dc-a932-05b95c03717e" manual="true">
+      <element uuid="8b936a8c-8095-40f1-b22b-0f1e2d53b7a8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection23</seg>
+      </bo>
+    </element>
+    <element uuid="30562dca-3d53-42a0-aaf9-366ad35a1033" manual="true">
+      <element uuid="dcaaa1d9-4765-461d-b203-3977134adc57" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection24</seg>
+      </bo>
+    </element>
+    <element uuid="7a6b96b7-1e31-4411-8bcb-01e01929a2e5" manual="true">
+      <element uuid="c8825163-b5db-4cc1-ba74-d64e6ad4d4bd" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection3</seg>
+      </bo>
+    </element>
+    <element uuid="cbc96c30-12a1-405d-bf96-5de4bc1280a1" manual="true">
+      <element uuid="41aaa512-9e92-401c-a02c-beaccfad8a01" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection4</seg>
+      </bo>
+    </element>
+    <element uuid="4960dfa1-f0b1-4a6d-8ca3-03d599ac7d50" manual="true">
+      <element uuid="9a6d5fee-6fd2-4938-b012-2896214938a5" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection5</seg>
+      </bo>
+    </element>
+    <element uuid="1b8363b3-b4cc-48b4-bb86-6b263352f619" manual="true">
+      <element uuid="f87820b9-8d76-445c-b730-ca24c121eb54" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection6</seg>
+      </bo>
+    </element>
+    <element uuid="179907a6-fcd8-4a36-8ad7-34ea314ce231" manual="true">
+      <element uuid="af146768-a740-4d9d-bd96-5067eac9f694" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection7</seg>
+      </bo>
+    </element>
+    <element uuid="2c6cb7b1-8c52-46bc-bc23-1c4066512a28" manual="true">
+      <element uuid="28892bf3-2ce9-4993-b1dc-71dcbf00321e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection8</seg>
+      </bo>
+    </element>
+    <element uuid="794f4d51-71ff-461f-90b3-deb7da6a5a89" manual="true">
+      <element uuid="c1fee159-7113-4cbb-ad06-5e146fd85dbd" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>ElectrovalvesSystem_impl_new_connection9</seg>
+      </bo>
+    </element>
+    <element uuid="5af3f43e-415e-45cd-9ca9-9cee71c252d7" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>CloeEV</seg>
+      </bo>
+      <position y="188.0"/>
+    </element>
+    <element uuid="b17a9e89-950c-4c9e-bc15-247c65830722" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>ExtendEv</seg>
+      </bo>
+      <position y="694.0"/>
+    </element>
+    <element uuid="e901ef8f-6c95-4677-b4e9-5449c58ac22a" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>GenralHydrolicFloww</seg>
+      </bo>
+      <position y="508.0"/>
+    </element>
+    <element uuid="bf65b2d1-cbe2-44ce-aeb3-3a61baccd8a5" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>OpenEv</seg>
+      </bo>
+      <position y="283.0"/>
+    </element>
+    <element uuid="1b964a53-3a13-4dbd-b4f5-1e9f98497cd0" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>RetractEv</seg>
+      </bo>
+      <position y="918.0"/>
+    </element>
+    <element uuid="cdba3504-7873-4aee-92a1-8f8aa12f7496" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ExtensionCircuit_OpenDoorEV_HydrolicBus</seg>
+      </bo>
+      <position x="856.0" y="444.0"/>
+      <size width="296.0" height="35.0"/>
+    </element>
+    <element uuid="a5a790fc-dc4a-461a-8b16-67e6621826e4" manual="true">
+      <element uuid="394502aa-5b50-4ff7-9ad8-5a848687ec6e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>FrontDoorCylinder_ExtensionCircuit</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="a35647dd-92ff-4186-a520-5959aba4825f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>FrontDoorCylinderReatractionCircuit</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>FrontDoorCylinder</seg>
+      </bo>
+      <position x="1440.0" y="38.0"/>
+      <size width="300.0" height="171.0"/>
+    </element>
+    <element uuid="f949435d-5573-4a32-967d-0d9e1b49c7e6" manual="true">
+      <element uuid="07185a5c-a4e2-49b6-856f-2ef79831203a" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>FrontGearCylinderExtensionCircuit</seg>
+        </bo>
+        <position y="80.0"/>
+      </element>
+      <element uuid="99885726-f761-4803-a85a-a5bc3d5367b3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>FrontGearCylinderRetractationCircuit</seg>
+        </bo>
+        <position y="30.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>FrontGearCylinder</seg>
+      </bo>
+      <position x="1440.0" y="618.0"/>
+      <size width="300.0" height="136.0"/>
+    </element>
+    <element uuid="cbb50f36-95df-4206-8495-9ff2eeba492c" manual="true">
+      <element uuid="bc1e2754-377a-4e85-90dd-d1818f2bee20" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>LeftDoorCylinderExtensionCircuit</seg>
+        </bo>
+        <position y="82.0"/>
+      </element>
+      <element uuid="d2626d2e-4651-4c7d-9c7d-82dbb5b3ad27" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>LeftDoorCylinderRetractationCircuit</seg>
+        </bo>
+        <position y="37.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>LeftDoorCylinder</seg>
+      </bo>
+      <position x="1440.0" y="438.0"/>
+      <size width="299.0" height="138.0"/>
+    </element>
+    <element uuid="6c7f3f20-04c2-42c6-929f-382478d9a28c" manual="true">
+      <element uuid="75b7d62a-6ac3-476a-a43d-cd94dd626316" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RightGearCylinderExtensionCircuit</seg>
+        </bo>
+        <position y="125.0"/>
+      </element>
+      <element uuid="84ee8794-2524-4f30-80de-98af752820c9" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RightGearCylinderRetractationCircuit</seg>
+        </bo>
+        <position y="80.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>LeftGearCylinder</seg>
+      </bo>
+      <position x="1440.0" y="938.0"/>
+      <size width="300.0" height="181.0"/>
+    </element>
+    <element uuid="7b0e0ebc-e6c4-492c-a473-04ec163ca088" manual="true">
+      <element uuid="703be950-a4bf-4642-86c4-2a4272e51334" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>CloeEV</seg>
+        </bo>
+        <position y="70.0"/>
+      </element>
+      <element uuid="5a129e38-e984-447b-a40c-49ae605bba5a" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>CloseDoorsEvSystem_Hin</seg>
+        </bo>
+        <position y="130.0"/>
+      </element>
+      <element uuid="c6b487f0-cfcb-4b3d-9144-26fa3244b064" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>CloseDoorsEvSystem_Hout</seg>
+        </bo>
+        <position x="204.0" y="120.0"/>
+      </element>
+      <element uuid="b6ce7354-d6b6-4b97-9125-115510165ad8" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_CloseDoorEvSystemImpl</seg>
+      </bo>
+      <position x="400.0" y="68.0"/>
+      <size width="390.0" height="191.0"/>
+    </element>
+    <element uuid="90fbd6e2-98b1-4a33-8168-5ce020b90256" manual="true">
+      <element uuid="6fca1a98-6189-46c5-aaf7-e2c12dc5e0d0" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>Extend_EV_System_Hin</seg>
+        </bo>
+        <position y="44.0"/>
+      </element>
+      <element uuid="62d1cd58-068f-49a5-a696-e68f1f67d298" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Extend_EV_System_Hout</seg>
+        </bo>
+        <position x="226.0" y="60.0"/>
+      </element>
+      <element uuid="b8ec401c-db94-4fbc-a4a3-0d03ab12508e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ExtendEv</seg>
+        </bo>
+        <position y="89.0"/>
+      </element>
+      <element uuid="4ad69180-3f68-4b3d-b516-6644bf8a9fcc" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_ExtendEvSystemImpl</seg>
+      </bo>
+      <position x="394.0" y="622.0"/>
+      <size width="401.0" height="160.0"/>
+    </element>
+    <element uuid="625349a4-e2ed-4956-a0cc-762b85b5bcd6" manual="true">
+      <element uuid="c527ad70-3774-49cd-8bb8-53c58545e46f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>Open_EV_System_Hin</seg>
+        </bo>
+        <position y="120.0"/>
+      </element>
+      <element uuid="4b3c2252-b2c4-48b1-a4c5-24aea71de9d4" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Open_EV_System_Hout</seg>
+        </bo>
+        <position x="226.0" y="130.0"/>
+      </element>
+      <element uuid="ba9fc7ee-0398-4184-9432-6dbb29cadb2b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>OpenEv</seg>
+        </bo>
+        <position y="50.0"/>
+      </element>
+      <element uuid="7e7576c0-14fe-48ec-8ad5-40cdd9ad1764" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_OpenDoorEvSystemImpl</seg>
+      </bo>
+      <position x="405.0" y="288.0"/>
+      <size width="391.0" height="205.0"/>
+    </element>
+    <element uuid="55eeb3bc-7f5b-4d30-b8a2-c7e5132acc9f" manual="true">
+      <element uuid="771cf1d0-96d7-49da-b370-d754a3e16b6e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>Retract_EV_System_Hin</seg>
+        </bo>
+        <position y="80.0"/>
+      </element>
+      <element uuid="bf879b44-6727-4f5a-b777-d422afcd1738" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Retract_EV_System_Hout</seg>
+        </bo>
+        <position x="224.0" y="80.0"/>
+      </element>
+      <element uuid="d9a2a949-03cf-4632-bfdf-558f1bc0b342" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RetractEv</seg>
+        </bo>
+        <position y="125.0"/>
+      </element>
+      <element uuid="6c784ed6-ecb7-42fc-947d-ced4ac9f63da" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_RetractEvSystemImpl</seg>
+      </bo>
+      <position x="394.0" y="822.0"/>
+      <size width="400.0" height="185.0"/>
+    </element>
+    <element uuid="efa967f5-6d29-4182-8a0f-7d1791dcb770" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RetractationCircuit_ExtendEv_HydrolicBus</seg>
+      </bo>
+      <position x="890.0" y="684.0"/>
+      <size width="333.0" height="35.0"/>
+    </element>
+    <element uuid="9ff21448-3e6d-4b0a-b790-5d6a2575f723" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RetractationCircuit_RetractEv_HydrolicBus</seg>
+      </bo>
+      <position x="910.0" y="904.0"/>
+      <size width="333.0" height="35.0"/>
+    </element>
+    <element uuid="5f2638a5-579e-44ac-9737-c44c13e1ac32" manual="true">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RetractationCircuitHydrolicBus</seg>
+      </bo>
+      <position x="860.0" y="308.0"/>
+      <size width="288.0" height="35.0"/>
+    </element>
+    <element uuid="189eea33-2a77-4c9c-805a-13ca4f2cd856" manual="true">
+      <element uuid="d639d942-b631-4fb1-bda7-c5e0d78c166b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RightDoorCylinderExtensionCircuit</seg>
+        </bo>
+        <position y="107.0"/>
+      </element>
+      <element uuid="e0286513-40e3-4c7b-a462-6a4d602a219f" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RightDoorCylinderRetractationCircuit</seg>
+        </bo>
+        <position y="47.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RightDoorCylinder</seg>
+      </bo>
+      <position x="1440.0" y="238.0"/>
+      <size width="300.0" height="170.0"/>
+    </element>
+    <element uuid="aac68a0f-2e70-464c-ba89-b45f3d8832f9" manual="true">
+      <element uuid="9c626547-3634-483c-bc3c-855c54bd6598" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>LeftGearCylinderExtensionCircuit</seg>
+        </bo>
+        <position y="90.0"/>
+      </element>
+      <element uuid="33408ccb-098f-4100-bf30-1bbf8cbe5037" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>LeftGearCylinderRetractationCircuit</seg>
+        </bo>
+        <position y="40.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>RightGearCylinder</seg>
+      </bo>
+      <position x="1440.0" y="768.0"/>
+      <size width="301.0" height="130.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>ElectrovalvesSystem.impl</seg>
+    </bo>
+    <position x="-270.0" y="12.0"/>
+    <size width="1831.0" height="1131.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::ElectrovalvesSystem.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

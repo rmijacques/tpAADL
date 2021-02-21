@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="3a518484-990a-48ce-9bff-bcb8813b03e9" manual="true">
-    <element uuid="eb68eb66-f864-4c5c-a132-057fa3d11554" manual="true">
-      <element uuid="c334d4ea-46e3-437e-b751-629a86aa5567" manual="true">
+    <element uuid="72c0d160-be1f-4492-97b8-09b3b6b251be" manual="true">
+      <element uuid="a0bdd929-8e64-4bf7-b4ac-e0a5f1f18e0a" manual="true">
         <bo>
           <seg>tag</seg>
           <seg>unidirectional</seg>
@@ -10,11 +10,11 @@
       </element>
       <bo>
         <seg>connection</seg>
-        <seg>lgsSystem_impl_new_connection</seg>
+        <seg>lgsSystem_impl_new_connection26</seg>
       </bo>
     </element>
-    <element uuid="cde379c8-598e-43b6-ac14-c7f6bbafd413" manual="true">
-      <element uuid="c9fe6328-3906-48d0-b097-5e2b5e10339b" manual="true">
+    <element uuid="41ad310c-d7b5-435b-b513-a80b6382832f" manual="true">
+      <element uuid="d42a2749-4ae0-4389-a554-4bc72c72160c" manual="true">
         <bo>
           <seg>tag</seg>
           <seg>unidirectional</seg>
@@ -22,11 +22,11 @@
       </element>
       <bo>
         <seg>connection</seg>
-        <seg>lgsSystem_impl_new_connection2</seg>
+        <seg>lgsSystem_impl_new_connection27</seg>
       </bo>
     </element>
-    <element uuid="fe64b20d-0e76-4052-bc4b-b4b944946ab9" manual="true">
-      <element uuid="66595e97-7149-4ed1-9bed-ebdb58bbf8c0" manual="true">
+    <element uuid="065266b3-0a21-41b0-a664-c1099f407dd2" manual="true">
+      <element uuid="f65560d8-b647-4deb-ba3d-2caf60f8d064" manual="true">
         <bo>
           <seg>tag</seg>
           <seg>unidirectional</seg>
@@ -34,68 +34,126 @@
       </element>
       <bo>
         <seg>connection</seg>
-        <seg>lgsSystem_impl_new_connection3</seg>
+        <seg>lgsSystem_impl_new_connection28</seg>
       </bo>
+    </element>
+    <element uuid="b4dccb2d-1fc2-4222-ac92-e2d6e08ee67a" manual="true">
+      <element uuid="161aa0d8-233c-475f-a888-60420cd4775a" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lgsSystem_impl_new_connection29</seg>
+      </bo>
+    </element>
+    <element uuid="ffd0ac0b-51a7-41a8-9469-7300e7a42c93" manual="true">
+      <element uuid="669d37ae-9457-49f5-aec4-8df381a1ab31" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lgsSystem_impl_new_connection30</seg>
+      </bo>
+    </element>
+    <element uuid="630c8380-d58b-4715-9272-19e1bf320c41" manual="true">
+      <element uuid="5f1cdfc8-d027-4506-88a7-498cbfbc8fa8" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>CloseEv</seg>
+        </bo>
+        <position x="570.0" y="90.0"/>
+      </element>
+      <element uuid="d829973b-bb6f-4530-b355-0c3c146c14fa" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>ExtendEv</seg>
+        </bo>
+        <position x="560.0" y="225.0"/>
+      </element>
+      <element uuid="c4fa2886-e076-42c1-8239-ac3518ccf2c0" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>OpenEv</seg>
+        </bo>
+        <position x="572.0" y="135.0"/>
+      </element>
+      <element uuid="45a64f92-92e2-4582-afc0-26e667d9111d" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>RetractEv</seg>
+        </bo>
+        <position x="558.0" y="180.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>DigitalPart</seg>
+      </bo>
+      <position x="120.0" y="440.0"/>
+      <size width="630.0" height="505.0"/>
+    </element>
+    <element uuid="283085b1-1ef1-4388-a519-3c54e9cdbf66" manual="true">
+      <element uuid="457d47af-bd8a-4403-bb2e-f11785af270c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>CloeEV</seg>
+        </bo>
+        <position y="16.0"/>
+      </element>
+      <element uuid="eae2f25f-499b-43eb-9fcb-736139221991" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ExtendEv</seg>
+        </bo>
+        <position y="156.0"/>
+      </element>
+      <element uuid="1b1c0701-e673-4680-98bf-0b261e06118e" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>GenralHydrolicFloww</seg>
+        </bo>
+        <position y="206.0"/>
+      </element>
+      <element uuid="cc3a7890-7ed6-49a3-9eee-8ac424c1aa2b" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>OpenEv</seg>
+        </bo>
+        <position y="61.0"/>
+      </element>
+      <element uuid="aaac64ce-6beb-43dd-9bc4-59fc1609fda3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>RetractEv</seg>
+        </bo>
+        <position y="106.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ElectrovalvesSystem</seg>
+      </bo>
+      <position x="1300.0" y="450.0"/>
+      <size width="491.0" height="297.0"/>
     </element>
     <element uuid="b410ede4-8e6a-4c86-9d88-9524331adb93" manual="true">
       <bo>
         <seg>subcomponent</seg>
         <seg>GeneralHydrolicFlowBus</seg>
       </bo>
-      <position x="320.0" y="570.0"/>
-      <size width="288.0" height="35.0"/>
-    </element>
-    <element uuid="53df7750-b67d-4f8f-95a5-dbbc9a53b08e" manual="true">
-      <element uuid="d17d8ee4-85dc-4da5-a26b-d18329721dcc" manual="true" dockArea="left">
-        <bo>
-          <seg>feature</seg>
-          <seg>CloseDoorsEvSystem_Hin</seg>
-        </bo>
-        <position y="150.0"/>
-      </element>
-      <element uuid="4699d9b1-8010-4d02-9903-7ebfa2d9cb82" manual="true" dockArea="right">
-        <bo>
-          <seg>feature</seg>
-          <seg>CloseDoorsEvSystem_Hout</seg>
-        </bo>
-        <position x="786.0" y="120.0"/>
-      </element>
-      <element uuid="ef69ba9c-96fc-4934-8ffb-b42bd641dbf5" manual="true" dockArea="left">
-        <bo>
-          <seg>feature</seg>
-          <seg>RetractEvBusIn</seg>
-        </bo>
-        <position y="70.0"/>
-      </element>
-      <bo>
-        <seg>subcomponent</seg>
-        <seg>lgsSystem_CloseDoorEvSystemImpl</seg>
-      </bo>
-      <position x="950.0" y="230.0"/>
-      <size width="972.0" height="473.0"/>
-    </element>
-    <element uuid="e8931b6d-09a0-4134-aa41-6f654336ecd4" manual="true">
-      <bo>
-        <seg>subcomponent</seg>
-        <seg>RetractationCircuitHydrolicBus</seg>
-      </bo>
-      <position x="2060.0" y="270.0"/>
-      <size width="288.0" height="35.0"/>
-    </element>
-    <element uuid="8aa0e7ed-8916-4f3d-80f6-81a47a5da8a2" manual="true">
-      <bo>
-        <seg>subcomponent</seg>
-        <seg>RetractEvElctricalBus</seg>
-      </bo>
-      <position x="300.0" y="260.0"/>
+      <position x="930.0" y="840.0"/>
       <size width="288.0" height="35.0"/>
     </element>
     <bo>
       <seg>classifier</seg>
       <seg>lgsSystem.impl</seg>
     </bo>
-    <position x="10.0"/>
-    <size width="2419.0" height="919.0"/>
+    <position x="-530.0" y="150.0"/>
+    <size width="3530.0" height="2301.0"/>
   </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
