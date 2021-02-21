@@ -49,7 +49,7 @@
         <seg>feature</seg>
         <seg>general_ev_out</seg>
       </bo>
-      <position x="734.0" y="73.0"/>
+      <position x="738.0" y="73.0"/>
     </element>
     <element uuid="2c484b04-2f53-4abe-a3fb-5798ab98c120" manual="true" dockArea="left">
       <bo>
@@ -71,7 +71,7 @@
           <seg>feature</seg>
           <seg>general_ev_out</seg>
         </bo>
-        <position x="215.0" y="35.0"/>
+        <position x="219.0" y="35.0"/>
       </element>
       <element uuid="0e30afb6-c987-405f-91f4-453bfd53c936" manual="true" dockArea="left">
         <bo>

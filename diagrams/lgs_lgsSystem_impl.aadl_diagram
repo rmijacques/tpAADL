@@ -37,12 +37,36 @@
         <seg>lgsSystem_impl_new_connection3</seg>
       </bo>
     </element>
+    <element uuid="4e29700e-20a6-4e55-a90d-5bac8317dd83" manual="true">
+      <element uuid="e68df1d2-ce9a-4c58-90be-855b305e8c88" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lgsSystem_impl_new_connection5</seg>
+      </bo>
+    </element>
+    <element uuid="63f9edf0-0da9-40d5-adad-4121da7bc298" manual="true">
+      <element uuid="8a57e30b-2352-4af5-85de-11bcda35867e" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>lgsSystem_impl_new_connection6</seg>
+      </bo>
+    </element>
     <element uuid="b410ede4-8e6a-4c86-9d88-9524331adb93" manual="true">
       <bo>
         <seg>subcomponent</seg>
         <seg>GeneralHydrolicFlowBus</seg>
       </bo>
-      <position x="320.0" y="570.0"/>
+      <position x="450.0" y="550.0"/>
       <size width="288.0" height="35.0"/>
     </element>
     <element uuid="53df7750-b67d-4f8f-95a5-dbbc9a53b08e" manual="true">
@@ -58,7 +82,7 @@
           <seg>feature</seg>
           <seg>CloseDoorsEvSystem_Hout</seg>
         </bo>
-        <position x="786.0" y="120.0"/>
+        <position x="781.0" y="120.0"/>
       </element>
       <element uuid="ef69ba9c-96fc-4934-8ffb-b42bd641dbf5" manual="true" dockArea="left">
         <bo>
@@ -73,6 +97,43 @@
       </bo>
       <position x="950.0" y="230.0"/>
       <size width="972.0" height="473.0"/>
+    </element>
+    <element uuid="4ca54cd7-8cb9-4323-bcaa-418886c2b2ff" manual="true">
+      <element uuid="855585a0-c465-475d-8dae-814413c3c00b" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pressureCheck</seg>
+        </bo>
+        <position x="211.0" y="60.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_digitalPartImpl</seg>
+      </bo>
+      <position x="120.0" y="640.0"/>
+      <size width="320.0" height="240.0"/>
+    </element>
+    <element uuid="cb518c90-f632-4cf4-be0b-824da7d8fd56" manual="true">
+      <element uuid="f929ce1c-2ad6-464d-ab06-0dd492b63979" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>circuit_pressurized</seg>
+        </bo>
+        <position y="127.0"/>
+      </element>
+      <element uuid="3515c5b5-d07d-4efb-8f79-88945eb58358" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pressure_in</seg>
+        </bo>
+        <position y="43.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>lgsSystem_discrete_sensorIpml</seg>
+      </bo>
+      <position x="820.0" y="710.0"/>
+      <size width="420.0" height="180.0"/>
     </element>
     <element uuid="e8931b6d-09a0-4134-aa41-6f654336ecd4" manual="true">
       <bo>

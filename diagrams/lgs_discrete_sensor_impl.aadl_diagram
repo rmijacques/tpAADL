@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="2c865d6e-05eb-411c-854a-a51be1c4db64" manual="true">
+    <element uuid="b35aad93-f67d-4327-ae02-e5e9da654026" manual="true" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>circuit_pressurized</seg>
+      </bo>
+      <position y="80.0"/>
+    </element>
+    <element uuid="39ea63b8-9df4-4b8c-876f-9f927b25277f" manual="true" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>pressure_in</seg>
+      </bo>
+      <position x="802.0" y="48.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>discrete_sensor.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="889.0" height="249.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>lgs::discrete_sensor.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
